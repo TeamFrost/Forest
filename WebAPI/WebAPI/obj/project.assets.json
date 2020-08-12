@@ -5006,11 +5006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Simona\\Desktop\\Forest\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Simona\\Documents\\Forest\\WebAPI\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\Simona\\Desktop\\Forest\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\Simona\\Documents\\Forest\\WebAPI\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\Simona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Simona\\Desktop\\Forest\\WebAPI\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Simona\\Documents\\Forest\\WebAPI\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Simona\\AppData\\Roaming\\NuGet\\NuGet.Config",

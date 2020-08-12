@@ -12,13 +12,11 @@ namespace WebAPI.Entities
         [Key]
         public int Id { get; set; }
 
-        [Column(TypeName = "nvarchar(255)")]
         public string FullName { get; set; }
 
         [Column(TypeName = "nvarchar(10)")]
         public string PhoneNumber { get; set; }
 
-        [Column(TypeName = "nvarchar(255)")]
         public string Company { get; set; }
 
         [Column(TypeName = "nvarchar(31)")]

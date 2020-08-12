@@ -19,7 +19,6 @@ namespace WebAPI.Entities
         [Column(TypeName = "nvarchar(31)")]
         public string Category { get; set; }
 
-        [Column(TypeName = "nvarchar(255)")]
         public string Description { get; set; }
 
         [Column(TypeName = "nvarchar(31)")]
@@ -28,7 +27,6 @@ namespace WebAPI.Entities
         [Column(TypeName = "nvarchar(31)")]
         public string Length { get; set; }
 
-        [Column(TypeName = "double")]
         public double Price { get; set; }
 
         [Column(TypeName = "nvarchar(31)")]
@@ -36,8 +34,9 @@ namespace WebAPI.Entities
 
         public int Stock { get; set; }
 
-        [Column(TypeName = "nvarchar(255)")]
         public string Photo { get; set; }
+
+        public ICollection<OrderProduct> OrderProduct { get; set; }
 
     }
 }
