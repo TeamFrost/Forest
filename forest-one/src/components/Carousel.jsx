@@ -1,17 +1,9 @@
 import React from 'react';
 import Carousel from 'react-material-ui-carousel'
-import { Paper } from '@material-ui/core'
 import Button from '@material-ui/core/Button';
 // import carousel1 from "../img/carousel1.png";
 // import carousel2 from "../img/carousel2.png";
-import { makeStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-        width: 1920,
-        height: 680,
-    }
-}));
 
 function Slideshow(props) {
     var items = [
@@ -34,11 +26,12 @@ function Slideshow(props) {
 export default Slideshow;
 
 function Item(props) {
-    const classes = useStyles();
-
     return (
         <div>
-            <img src={props.item.image} />
+            <Button>
+                <img src={props.item.image} />
+            </Button>
+            
         </div>
     )
 }
