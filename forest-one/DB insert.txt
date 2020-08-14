@@ -1,0 +1,35 @@
+{
+    "id": 1,
+    "name": "Lemn",
+    "category": "Scandura",
+    "description": "Frumos",
+    "size": "Nedimensionata",
+    "length": "",
+    "price": 750,
+    "typeForPrice": "mc",
+    "stock": 50,
+    "photo": "",
+    "orderProduct": null
+}
+
+{
+    "fullName":"admin",
+    "phoneNumber":"",
+    "company":"",
+    "password":"pass",
+    "role":true
+}
+    
+{
+    "DeliveryAdress":"Strada Roma",
+    "Notes":"Nu sunt",
+    "DateCreated": "2020-08-13T11:40:00Z",
+    "Processed": false,
+    "UserId": 1
+}
+
+{
+    "OrderId": 1,
+    "ProductId": 1,
+    "Quantity": 5
+}
