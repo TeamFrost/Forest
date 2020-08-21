@@ -8,19 +8,21 @@ import FirstCarouselApp from "./components/FirstCarousel/FirstCarouselApp";
 import SecondCarouselApp from "./components/SecondCarousel/SecondCarouselApp";
 import Text from "./components/Text";
 import TableList from "./components/TableList";
-
+import Menu from "./components/Menu"
+import Advantages from "./components/Advantages"
 
 function App() {
     return (<div className="App" >
-        {/* <Header /> */}
-        {/* <FirstCarouselApp /> */}
-        {/* <InfoCard /> */}
-        {/* <Text /> */}
-        {/* <SecondCarouselApp /> */}
-        {/* <Footer /> */}
+        <Menu/>
+        <Header />
+        <FirstCarouselApp />
+        <InfoCard />
+        <Text />
+        <SecondCarouselApp />
+        <Advantages />    
         <TableList />
+        <Footer />
         
-
     </div>
     );
 }

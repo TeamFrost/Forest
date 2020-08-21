@@ -12,6 +12,7 @@ import bulletTree from "../img/bullet-tree.png";
 const useStyles = makeStyles((theme) => ({
     paper: {
         margin: 50,
+        marginLeft: 150, 
         padding: 15,
         width: 400,
         height: 600,
