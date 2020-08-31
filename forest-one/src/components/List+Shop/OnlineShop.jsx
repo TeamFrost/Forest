@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
     paper: {
         paddingTop: 350,
         width: 1050,
-        height: 700,
+        height: 400,
         backgroundImage: `url(${Shop})`,
         backgroundRepeat: 'no-repeat',
     },

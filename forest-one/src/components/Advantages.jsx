@@ -75,7 +75,7 @@ function Advantages() {
                     </Box>
                 </Typography>
                 <Grid container spacing={6} className={classes.grid}>
-                    <Grid container xs={12} sm={6} className={classes.grid2}>
+                    <Grid container sm={6} className={classes.grid2}>
                         <Grid item xs={12} sm={9}>
                             <Box fontWeight={"fontWeightLight"} fontSize={23}>
                                 Cel mai bun material izolant natural termic și fonic &nbsp;&nbsp;&nbsp;&nbsp;
@@ -88,7 +88,7 @@ function Advantages() {
                         </Grid>
                         <BorderLinearProgress variant="determinate" value={100} />
                     </Grid>
-                    <Grid container xs={12} sm={6} className={classes.grid2}>
+                    <Grid container sm={6} className={classes.grid2}>
                         <Grid item xs={12} sm={9}>
                             <Box fontWeight={"fontWeightLight"} fontSize={23}>
                             Lemnul se poate prelucra și fasona relativ ușor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -101,7 +101,7 @@ function Advantages() {
                         </Grid>
                         <BorderLinearProgress variant="determinate" value={75} />
                     </Grid>
-                    <Grid container xs={12} sm={6} className={classes.grid2}>
+                    <Grid container sm={6} className={classes.grid2}>
                         <Grid item xs={12} sm={9}>
                             <Box fontWeight={"fontWeightLight"} fontSize={23}>
                             Element valoros în designul de interior și exterior &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -115,7 +115,7 @@ function Advantages() {
                         </Grid>
                         <BorderLinearProgress variant="determinate" value={90} />
                     </Grid>
-                    <Grid container xs={12} sm={6} className={classes.grid2}>
+                    <Grid container sm={6} className={classes.grid2}>
                         <Grid item xs={12} sm={9}>
                             <Box fontWeight={"fontWeightLight"} fontSize={23}>
                             Durabilitatea mare a construcțiilor din lemn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
