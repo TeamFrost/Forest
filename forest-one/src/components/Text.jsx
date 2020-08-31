@@ -7,7 +7,8 @@ const useStyles = makeStyles((theme) => ({
     root: {
         marginLeft: 150,
         marginRight: 150,
-        paddingBottom: 75
+        paddingBottom: 100,
+        paddingTop: 50,
     },
     headingText: {
         fontSize: 30,

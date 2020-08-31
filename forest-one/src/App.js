@@ -8,21 +8,21 @@ import FirstCarouselApp from "./components/FirstCarousel/FirstCarouselApp";
 import Text from "./components/Text";
 import ListShop from "./components/List+Shop/ListShop";
 import PhotoButtons from "./components/PhotoButtons";
-
+import Menu from "./components/Menu"
+import Advantages from "./components/Advantages";
 
 function App() {
     return (<div className="App" >
+        <Menu/>
         <Header />
         <FirstCarouselApp />
         <InfoCard />
         <PhotoButtons />
         <Text />
         <ListShop />
+        <Advantages />    
         <Footer />
         
-        
-        
-
     </div>
     );
 }
