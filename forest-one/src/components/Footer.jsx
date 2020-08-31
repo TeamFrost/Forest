@@ -34,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
     icon: {
         fontSize: 90,
         marginTop: 15,
+        cursor: 'default',
     },
     list: {
         paddingBottom: 1,
