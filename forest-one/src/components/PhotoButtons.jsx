@@ -124,7 +124,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function ButtonBases() {
+export default function PhotoButtons() {
     const classes = useStyles();
     
     const [imageSet, setImageSet] = useState(images1);

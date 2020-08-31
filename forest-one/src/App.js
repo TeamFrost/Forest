@@ -8,7 +8,8 @@ import FirstCarouselApp from "./components/FirstCarousel/FirstCarouselApp";
 import Text from "./components/Text";
 import TableList from "./components/TableList";
 import Menu from "./components/Menu"
-import Advantages from "./components/Advantages"
+import Advantages from "./components/Advantages";
+import PhotoButtons from "./components/PhotoButtons";
 
 function App() {
     return (<div className="App" >
@@ -16,8 +17,8 @@ function App() {
         <Header />
         <FirstCarouselApp />
         <InfoCard />
+        <PhotoButtons />
         <Text />
-        <SecondCarouselApp />
         <Advantages />    
         <TableList />
         <Footer />
