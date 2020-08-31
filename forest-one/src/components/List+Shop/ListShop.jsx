@@ -8,6 +8,7 @@ const useStyles = makeStyles((theme) => ({
         marginTop: 50,
         marginLeft: 170,
         display: "flex",
+
     }
 }));
 

@@ -14,7 +14,7 @@ export default function CarouselSlide(props) {
             width: '1400px',
             display: 'flex',
             justifyContent: 'center',
-        } 
+        }
     }));
 
     const classes = useStyles();

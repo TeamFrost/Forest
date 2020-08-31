@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import './FirstCarouselApp.css';
 import CarouselSlide from './CarouselSlide';
 import { SLIDE_INFO } from './Constants';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import Slide from '@material-ui/core/Slide';
 
-function Arrow(props) {
+const Arrow = (props) =>{
     const { direction, clickFunction } = props;
     const icon = direction === 'left' ? <FaChevronLeft /> : <FaChevronRight />;
 
@@ -20,6 +20,7 @@ function FirstCarouselApp() {
     const [slideIn, setSlideIn] = useState(true);
     const [slideDirection, setSlideDirection] = useState('down');
 
+
     const onArrowClick = (direction) => {
         const increment = direction === 'left' ? -1 : 1;
         const newIndex = (index + increment + numSlides) % numSlides;
@@ -32,7 +33,7 @@ function FirstCarouselApp() {
             setIndex(newIndex);
             setSlideDirection(oppDirection);
             setSlideIn(true);
-        }, 500);
+        }, 400);
     };
 
     return (

@@ -10,18 +10,24 @@ import ListShop from "./components/List+Shop/ListShop";
 import PhotoButtons from "./components/PhotoButtons";
 import Menu from "./components/Menu"
 import Advantages from "./components/Advantages";
+import Houzz from "./components/Houzz";
+import AboutUsPage from './pages/AboutUsPage';
+
 
 function App() {
     return (<div className="App" >
         <Menu/>
-        <Header />
+        {/* <Header />
         <FirstCarouselApp />
         <InfoCard />
         <PhotoButtons />
         <Text />
         <ListShop />
-        <Advantages />    
-        <Footer />
+        <Advantages />
+        <Houzz />
+        <Footer /> */}
+        <AboutUsPage />
+
         
     </div>
     );

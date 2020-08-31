@@ -41,7 +41,6 @@ function Text() {
                 <Box fontWeight={"fontWeightLight"} component={'span'} m={1}>
                     Depozitul <span className={classes.specialText}>Forest ONE</span> are în permanență lemn pregătit pentru construit: brut, finit și semifabricat. Astfel, oferta noastra cuprinde: cherestea verde sau uscată nerindeluită, grinzi rășinoase, produse din lemn finite și semifabricate - lambriuri, scânduri de gard, podele, tavane din lemn, etc.
             </Box>
-
             </Typography>
         </div>
     );

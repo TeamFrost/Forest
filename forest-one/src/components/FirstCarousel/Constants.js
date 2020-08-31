@@ -6,5 +6,5 @@ export const SLIDE_INFO = [
     { backgroundImage: `url(${carousel1})` },
     { backgroundImage: `url(${carousel2})` },
     { backgroundImage: `url(${carousel1})` },
-    { backgroundImage: `url(${carousel1})` },
+    { backgroundImage: `url(${carousel2})` },
 ];

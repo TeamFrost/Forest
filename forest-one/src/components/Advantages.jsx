@@ -9,15 +9,16 @@ import Grid from '@material-ui/core/Grid';
 const useStyles = makeStyles((theme) => ({
     root: {
         width: 1920,
-        height: 800,
+        height: 775,
         backgroundImage: `url(${AdvantagesPhoto})`
     },
     paper: {
         position: 'relative',
         top: 75,
         width: '100%',
-        height: 650,
-        backgroundColor: "#FFFFFFDE"
+        height: 550,
+        backgroundColor: "#FFFFFFDE",
+        paddingTop: 50,
     },
     text: {
         paddingTop: 80,
@@ -61,12 +62,12 @@ function Advantages() {
     return (
         <div className={classes.root}>
             <Paper className={classes.paper}>
-                <Typography variant="h4" className={classes.text}>
+                <Typography variant="h4" component={'span'} className={classes.text}>
                     <Box fontSize={34} fontWeight="fontWeightBold" m={1}>
                         AVANTAJELE LEMNULUI
                     </Box>
                 </Typography>
-                <Typography className={classes.bodyText}>
+                <Typography component={'span'} className={classes.bodyText}>
                     <Box fontWeight={"fontWeightLight"} fontSize={28} m={1}>
                         Lemnul aparent din cadrul unei construcții, conferă un aspect arhitectural foarte plăcut,
                     </Box>
