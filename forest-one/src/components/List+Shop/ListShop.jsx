@@ -7,8 +7,7 @@ const useStyles = makeStyles((theme) => ({
     root: {
         marginTop: 50,
         marginLeft: 170,
-        display: "flex",
-
+        display: "flex",        
     }
 }));
 
