@@ -40,10 +40,17 @@ const useStyles = makeStyles((theme) => ({
         height: theme.spacing(10),
         marginRight: 15,
         backgroundColor: '#DDAC65'
-      },
-      icon: {
+    },
+    icon: {
         fontSize: 50,
-      }
+    },
+    headingText: {
+        fontSize: 25,
+    },
+    bodyText: {
+        fontSize: 18,
+    },
+
 }));
 
 function InfoCard() {
@@ -62,14 +69,14 @@ function InfoCard() {
                                 <ListItem className={classes.listItem}>
                                     <ListItemAvatar>
                                         <Avatar className={classes.large} variant="square">
-                                            <HelpIcon className={classes.icon}/>
+                                            <HelpIcon className={classes.icon} />
                                         </Avatar>
                                     </ListItemAvatar>
                                     <ListItemText>
-                                        <Typography variant="h5">
+                                        <Typography variant="h5" className={classes.headingText}>
                                             Cine poate apela la noi?
                                         </Typography>
-                                        <Typography variant="body1">
+                                        <Typography variant="body1" className={classes.bodyText}>
                                             Orice companie sau persoană care are nevoie de lemn pregătit pentru construit.
                                         </Typography>
                                     </ListItemText>
@@ -77,14 +84,14 @@ function InfoCard() {
                                 <ListItem className={classes.listItem}>
                                     <ListItemAvatar>
                                         <Avatar className={classes.large} variant="square">
-                                            <PeopleAltIcon className={classes.icon}/>
+                                            <PeopleAltIcon className={classes.icon} />
                                         </Avatar>
                                     </ListItemAvatar>
                                     <ListItemText>
-                                        <Typography variant="h5">
+                                        <Typography variant="h5" className={classes.headingText}>
                                             Echipa Forest
                                         </Typography>
-                                        <Typography variant="body1">
+                                        <Typography variant="body1" className={classes.bodyText}>
                                             Asigurăm consultanța pentru a alege lemnul potrivit fiecărui proiect.
                                         </Typography>
                                     </ListItemText>
@@ -92,14 +99,14 @@ function InfoCard() {
                                 <ListItem className={classes.listItem}>
                                     <ListItemAvatar>
                                         <Avatar className={classes.large} variant="square">
-                                            <ScheduleIcon className={classes.icon}/>
+                                            <ScheduleIcon className={classes.icon} />
                                         </Avatar>
                                     </ListItemAvatar>
                                     <ListItemText>
-                                        <Typography variant="h5">
+                                        <Typography variant="h5" className={classes.headingText}>
                                             Programul nostru
                                         </Typography>
-                                        <Typography variant="body1">
+                                        <Typography variant="body1" className={classes.bodyText}>
                                             De luni până vineri de la ora 08:00-16:00, sâmbătă: 08:00-12:00
                                         </Typography>
                                     </ListItemText>
@@ -113,14 +120,14 @@ function InfoCard() {
                                 <ListItem className={classes.listItem}>
                                     <ListItemAvatar>
                                         <Avatar className={classes.large} variant="square">
-                                            <LocationOnIcon className={classes.icon}/>
+                                            <LocationOnIcon className={classes.icon} />
                                         </Avatar>
                                     </ListItemAvatar>
                                     <ListItemText>
-                                        <Typography variant="h5">
+                                        <Typography variant="h5" className={classes.headingText}>
                                             Localizare Depozit
                                         </Typography>
-                                        <Typography variant="body1">
+                                        <Typography variant="body1" className={classes.bodyText}>
                                             Str. Berarilor nr.8, Moșnița Nouă, Judeţul Timiş DJ592, km 6 Timișoara-Buziaș.
                                         </Typography>
                                     </ListItemText>
@@ -128,14 +135,14 @@ function InfoCard() {
                                 <ListItem className={classes.listItem}>
                                     <ListItemAvatar>
                                         <Avatar className={classes.large} variant="square">
-                                            <LocalShippingIcon className={classes.icon}/>
+                                            <LocalShippingIcon className={classes.icon} />
                                         </Avatar>
                                     </ListItemAvatar>
                                     <ListItemText>
-                                        <Typography variant="h5">
+                                        <Typography variant="h5" className={classes.headingText}>
                                             Suport Logistic
                                         </Typography>
-                                        <Typography variant="body1">
+                                        <Typography variant="body1" className={classes.bodyText}>
                                             Transportul în zona depozitului este asigurat.
                                         </Typography>
                                     </ListItemText>
@@ -143,14 +150,14 @@ function InfoCard() {
                                 <ListItem className={classes.listItem}>
                                     <ListItemAvatar>
                                         <Avatar className={classes.large} variant="square">
-                                            <ShoppingCartIcon className={classes.icon}/>
+                                            <ShoppingCartIcon className={classes.icon} />
                                         </Avatar>
                                     </ListItemAvatar>
                                     <ListItemText>
-                                        <Typography variant="h5">
+                                        <Typography variant="h5" className={classes.headingText}>
                                             Oferte de preț personalizate
                                         </Typography>
-                                        <Typography variant="body1">
+                                        <Typography variant="body1" className={classes.bodyText}>
                                             Venim în sprijinul clienților noștri cu discount-uri, aplicate în funcție de cantitatea de lemn comandată.
                                         </Typography>
                                     </ListItemText>

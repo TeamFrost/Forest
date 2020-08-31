@@ -6,8 +6,8 @@ import Footer from './components/Footer';
 import InfoCard from "./components/InfoCard";
 import FirstCarouselApp from "./components/FirstCarousel/FirstCarouselApp";
 import Text from "./components/Text";
-import TableList from "./components/TableList";
-import ButtonBases from "./components/PhotoButtons";
+import ListShop from "./components/List+Shop/ListShop";
+import PhotoButtons from "./components/PhotoButtons";
 
 
 function App() {
@@ -15,9 +15,9 @@ function App() {
         <Header />
         <FirstCarouselApp />
         <InfoCard />
-        <ButtonBases />
+        <PhotoButtons />
         <Text />
-        <TableList />
+        <ListShop />
         <Footer />
         
         
