@@ -7,11 +7,11 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
-import bulletTree from "../img/bullet-tree.png";
+import bulletTree from "./img/bullet-tree.png";
 
 const useStyles = makeStyles((theme) => ({
     paper: {
-        margin: 50,
+        marginRight: 100,
         padding: 15,
         width: 400,
         height: 600,
@@ -32,7 +32,6 @@ const useStyles = makeStyles((theme) => ({
 
     },
     listItem: {
-
     }
 }));
 
@@ -43,7 +42,7 @@ function TableList() {
     return (
         <div>
             <Paper variant="outlined" className={classes.paper}>
-                <Typography variant="h4" className={classes.text}>
+                <Typography variant="h4" component={'span'} className={classes.text}>
                     <Box fontWeight="fontWeightBold" m={1}>
                         LEMN IEFTIN!
                     </Box>
@@ -58,7 +57,7 @@ function TableList() {
                             />
                         </ListItemAvatar>
                         <ListItemText>
-                            <Typography variant="body1">
+                            <Typography variant="body1" component={'span'} className={classes.listItem}>
                                 <Box fontWeight="fontWeightBold" m={1}>
                                     SCÂNDURĂ/DULAP VRAC
                                 </Box>
@@ -75,7 +74,7 @@ function TableList() {
                             />
                         </ListItemAvatar>
                         <ListItemText>
-                            <Typography variant="body1">
+                            <Typography variant="body1" component={'span'}>
                                 <Box fontWeight="fontWeightBold" m={1}>
                                     SCÂNDURĂ DIMENSIONATĂ
                                 </Box>
@@ -92,7 +91,7 @@ function TableList() {
                             />
                         </ListItemAvatar>
                         <ListItemText>
-                            <Typography variant="body1">
+                            <Typography variant="body1" component={'span'}>
                                 <Box fontWeight="fontWeightBold" m={1}>
                                     DULAPI DIMENSIONAȚI
                                 </Box>
@@ -109,7 +108,7 @@ function TableList() {
                             />
                         </ListItemAvatar>
                         <ListItemText>
-                            <Typography variant="body1">
+                            <Typography variant="body1" component={'span'}>
                                 <Box fontWeight="fontWeightBold" m={1}>
                                     LĂTEȚI, RIGLE
                                 </Box>
@@ -126,7 +125,7 @@ function TableList() {
                             />
                         </ListItemAvatar>
                         <ListItemText>
-                            <Typography variant="body1">
+                            <Typography variant="body1" component={'span'}>
                                 <Box fontWeight="fontWeightBold" m={1}>
                                     PAZIE, GRINZI
                                 </Box>
@@ -143,7 +142,7 @@ function TableList() {
                             />
                         </ListItemAvatar>
                         <ListItemText>
-                            <Typography variant="body1">
+                            <Typography variant="body1" component={'span'}>
                                 <Box fontWeight="fontWeightBold" m={1}>
                                     GARD, LAMBRIURI
                                 </Box>
@@ -160,7 +159,7 @@ function TableList() {
                             />
                         </ListItemAvatar>
                         <ListItemText>
-                            <Typography variant="body1">
+                            <Typography variant="body1" component={'span'}>
                                 <Box fontWeight="fontWeightBold" m={1}>
                                     PLĂCI OSB 3
                                 </Box>
@@ -177,11 +176,11 @@ function TableList() {
                             />
                         </ListItemAvatar>
                         <ListItemText>
-                            <Typography variant="body1">
+                            <Typography variant="body1" component={'span'}>
                                 <Box fontWeight="fontWeightBold" m={1}>
                                     PRODUSE FINISATE
                                 </Box>
-                               
+
                             </Typography>
                         </ListItemText>
                     </ListItem>
