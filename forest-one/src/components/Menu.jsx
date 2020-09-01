@@ -4,11 +4,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import StoreIcon from '@material-ui/icons/Store';
 
 const useStyles = makeStyles((theme) => ({
-    root: {
-        position: 'absolute',
-        top: 70,
-        left: 940
-    },
+    // root: {
+    //   position: 'absolute',
+    //   top: 70,
+    //     left: 940
+    // },
     button: {
         height: 60,
         margin: 3,
