@@ -42,6 +42,7 @@ const useStyles = makeStyles(() => ({
     text3: {
         margin: 175,
         marginTop: 50,
+        marginBottom: 80,
     },
     headingText3: {
         fontSize: 30,
