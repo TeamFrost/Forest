@@ -12,11 +12,13 @@ import Menu from "./components/Menu"
 import Advantages from "./components/Advantages";
 import Houzz from "./components/Houzz";
 import AboutUsPage from './pages/AboutUsPage';
+import FAQ from './pages/FAQ';
+import GalleryPage from './pages/GalleryPage';
 
 
 function App() {
     return (<div className="App" >
-        <Menu/>
+        {/* <Menu/> */}
         {/* <Header />
         <FirstCarouselApp />
         <InfoCard />
@@ -26,7 +28,9 @@ function App() {
         <Advantages />
         <Houzz />
         <Footer /> */}
-        <AboutUsPage />
+        {/* <AboutUsPage /> */}
+        {/* <FAQ /> */}
+        <GalleryPage />
 
         
     </div>
