@@ -9,7 +9,8 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import QuestionAnswerIcon from '@material-ui/icons/QuestionAnswer';
 import faq from "../img/faq.jpg";
-import headerCrop from "../img/headerCrop.png"
+import headerCrop from "../img/headerCrop.png";
+
 
 const useStyles = makeStyles(() => ({
     paper: {
@@ -53,7 +54,7 @@ function FAQ() {
         <div>
 
             <Paper className={classes.paper}>
-                <img src={headerCrop} style={{ marginBottom: 50 }} />
+                <img src={headerCrop} alt="headerCrop" style={{ marginBottom: 50 }} />
                 <Typography variant="h4" component={'span'} className={classes.headingText}>
                     <Box fontWeight="fontWeightBold" m={2}>
                         ÎNTREBĂRI FRECVENTE
@@ -99,7 +100,7 @@ function FAQ() {
                         </Typography>
                     </ListItemText>
                 </ListItem >
-                <ListItem className={classes.listItem}> 
+                <ListItem className={classes.listItem}>
                     <ListItemText>
                         <Typography variant="h6" component={'span'} className={classes.questionText}>
                             <Box fontWeight="fontWeightBold" m={2}>
@@ -138,6 +139,7 @@ function FAQ() {
                     </ListItemText>
                 </ListItem >
             </List>
+            
             <Footer />
         </div>
     );
