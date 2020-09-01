@@ -15,7 +15,8 @@ import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 const useStyles = makeStyles(() => ({
     text1: {
         margin: 175,
-        marginBottom: 50
+        marginBottom: 50,
+        marginTop: 70
     },
     headingText1: {
         fontSize: 30,
@@ -118,7 +119,7 @@ function AboutUsPage() {
                 </Typography>
                 <Typography className={classes.bodyText3}>
                     <Box fontWeight={"fontWeightLight"} component={'span'} m={2}>
-                        Depozitul nostru din Timisoara – Mosnita Noua, DJ592, km 6 Timișoara-Buziaș comercializeaza toata gama de material lemnos pentru constructii:
+                        Depozitul nostru din Timișoara – Moșnita Nouă, DJ592, km 6 Timișoara-Buziaș comercializeaza toată gama de material lemnos pentru constructii:
                     </Box>
                 </Typography>
                 <List className={classes.listRoot}>
@@ -128,7 +129,7 @@ function AboutUsPage() {
                         </ListItemIcon>
                         <ListItemText>
                             <Typography variant="body1" className={classes.text}>
-                                Grinzi: stalpi, capriori, corni, cosoroaba, pana de coama
+                                Grinzi: stâlpi, căpriori, corni, coșoroabă, pană de coamă
                             </Typography>
                         </ListItemText>
                     </ListItem >
@@ -138,7 +139,7 @@ function AboutUsPage() {
                         </ListItemIcon>
                         <ListItemText>
                             <Typography variant="body1" className={classes.text}>
-                                Cherestea: dulapi, scandura, laturi, marginare, lateti, sipci
+                                Cherestea: dulapi, scândură, lațuri, mărginare, lăteți, șipci
                             </Typography>
                         </ListItemText>
                     </ListItem>
@@ -148,7 +149,7 @@ function AboutUsPage() {
                         </ListItemIcon>
                         <ListItemText>
                             <Typography variant="body1" className={classes.text}>
-                                Produse prelucrate: lambriuri, scanduri de gard, podele, dusumea, tavane, placi aglomerate.
+                                Produse prelucrate: lambriuri, scânduri de gard, podele, dușumea, tavane, plăci aglomerate.
                         </Typography>
                         </ListItemText>
                     </ListItem>

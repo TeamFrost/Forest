@@ -12,12 +12,16 @@ import Menu from "./components/Menu"
 import Advantages from "./components/Advantages";
 import Houzz from "./components/Houzz";
 import AboutUsPage from './pages/AboutUsPage';
-
+import HeaderSecond from "./components/HeaderSecond";
 
 function App() {
-    return (<div className="App" >
-        <Menu/>
-        {/* <Header />
+    return (
+    <div className="App" >
+        <div style={{position: 'absolute', top: 70, left: 940}}>
+            <Menu />
+        </div>
+        {/* <HeaderSecond /> */}
+        <Header />
         <FirstCarouselApp />
         <InfoCard />
         <PhotoButtons />
@@ -25,8 +29,8 @@ function App() {
         <ListShop />
         <Advantages />
         <Houzz />
-        <Footer /> */}
-        <AboutUsPage />
+        <Footer />
+        {/* <AboutUsPage /> */}
 
         
     </div>
