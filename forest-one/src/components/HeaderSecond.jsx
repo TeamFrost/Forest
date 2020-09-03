@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import header2 from "../img/header2.png";
+import header2 from "../img/headerCrop.png";
 import siglamica from "../img/siglamica.png";
 import { Paper } from '@material-ui/core';
 import Menu from "./Menu";

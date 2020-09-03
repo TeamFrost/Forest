@@ -5,11 +5,13 @@ import Box from '@material-ui/core/Box';
 import RecommandGrid from "../components/RecommandGrid";
 import AboutUsPhoto from "../img/AboutUsPhoto.png"
 import Footer from '../components/Footer';
+import HeaderSecond from "../components/HeaderSecond";
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
+
 
 
 const useStyles = makeStyles(() => ({
@@ -75,6 +77,7 @@ function AboutUsPage() {
 
     return (
         <div className={classes.root}>
+            <HeaderSecond />
             <div className={classes.text1}>
                 <Typography variant="h4" component={'span'} className={classes.headingText1}>
                     <Box fontWeight="fontWeightBold" m={2}>

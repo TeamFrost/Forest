@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography } from "@material-ui/core";
 import PhotoGallery from "../components/Gallery/PhotoGallery"
-import Header from "../img/header2.png"
+import HeaderSecond from "../components/HeaderSecond";
 
 const useStyles = makeStyles(() => ({
     root: {
@@ -13,7 +13,8 @@ const useStyles = makeStyles(() => ({
         marginTop: 25,
         marginBottom:50,
         fontSize: 60,
-        letterSpacing: '3px'
+        letterSpacing: '3px',
+        fontWeight: 'semi-bold'
     }
 }));
 
@@ -24,7 +25,7 @@ function GalleryPage() {
 
     return (
         <div>
-            <img src={Header} alt="header" />
+            <HeaderSecond />
             <Typography variant="h4" className={classes.text} >
                 GALERIE FOTO
             </Typography>

@@ -2,14 +2,15 @@ import React from "react";
 import { Typography, Paper } from "@material-ui/core";
 import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
-import Footer from '../components/Footer';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import QuestionAnswerIcon from '@material-ui/icons/QuestionAnswer';
 import faq from "../img/faq.jpg";
-import headerCrop from "../img/headerCrop.png";
+import HeaderSecond from "../components/HeaderSecond";
+import Footer from "../components/Footer";
+
 
 
 const useStyles = makeStyles(() => ({
@@ -54,9 +55,9 @@ function FAQ() {
         <div>
 
             <Paper className={classes.paper}>
-                <img src={headerCrop} alt="headerCrop" style={{ marginBottom: 50 }} />
+                <HeaderSecond />
                 <Typography variant="h4" component={'span'} className={classes.headingText}>
-                    <Box fontWeight="fontWeightBold" m={2}>
+                    <Box fontWeight="fontWeightBold" m={2} style={{ marginTop: 100 }}>
                         ÎNTREBĂRI FRECVENTE
                     </Box>
                 </Typography>
@@ -139,7 +140,6 @@ function FAQ() {
                     </ListItemText>
                 </ListItem >
             </List>
-            
             <Footer />
         </div>
     );

@@ -1,39 +1,23 @@
 import React from 'react';
 import './App.css';
 import LandingPage from './pages/LandingPage';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import InfoCard from "./components/InfoCard";
-import FirstCarouselApp from "./components/FirstCarousel/FirstCarouselApp";
-import Text from "./components/Text";
-import ListShop from "./components/List+Shop/ListShop";
-import PhotoButtons from "./components/PhotoButtons";
-import Menu from "./components/Menu"
-import Advantages from "./components/Advantages";
-import Houzz from "./components/Houzz";
+import HomePage from './pages/HomePage';
 import AboutUsPage from './pages/AboutUsPage';
-import HeaderSecond from "./components/HeaderSecond";
+import FAQ from './pages/FAQ';
+import GalleryPage from './pages/GalleryPage';
+import ContactPage from './pages/ContactPage';
+
 
 function App() {
     return (
-    <div className="App" >
-        <div style={{position: 'absolute', top: 70, left: 940}}>
-            <Menu />
+        <div className="App" >
+            {/* <LandingPage /> */}
+            {/* <HomePage /> */}
+            {/* <AboutUsPage /> */}
+            {/* <FAQ /> */}
+            {/* <GalleryPage /> */}
+            <ContactPage />
         </div>
-        {/* <HeaderSecond /> */}
-        <Header />
-        <FirstCarouselApp />
-        <InfoCard />
-        <PhotoButtons />
-        <Text />
-        <ListShop />
-        <Advantages />
-        <Houzz />
-        <Footer />
-        {/* <AboutUsPage /> */}
-
-        
-    </div>
     );
 }
 
