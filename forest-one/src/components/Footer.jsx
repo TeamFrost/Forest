@@ -16,6 +16,7 @@ import Blogger from "../img/blogger.svg";
 import Location from "../img/social-media.svg";
 import Whatsapp from "../img/whatsapp.svg";
 import Houzz from "../img/houzz.svg";
+import Copyright from '../helpers/Copyright';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -43,6 +44,13 @@ const useStyles = makeStyles((theme) => ({
         left: 1450,
         backgroundColor: 'rgb(49 126 46)',
         width: '25%',
+    },
+    paperCopy:{
+        position: 'relative',
+        top: 40,
+        left:1100,
+        width: '15%',
+        color: 'white'
     },
     icon: {
         fontSize: 90,
@@ -158,6 +166,9 @@ function Footer() {
                     window.open("https://www.houzz.com/professionals/home-builders/forest-one-pfvwus-pf~1511217594?");
                 }} />
             </Paper>
+            <div className={classes.paperCopy}>
+                <Copyright />
+            </div>
         </div>
     );
 }
