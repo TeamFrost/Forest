@@ -6,7 +6,7 @@ import AboutUsPage from './pages/AboutUsPage';
 import FAQ from './pages/FAQ';
 import GalleryPage from './pages/GalleryPage';
 import ContactPage from './pages/ContactPage';
-
+import Gdpr from './pages/Gdpr';
 
 function App() {
     return (
