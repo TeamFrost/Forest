@@ -16,7 +16,15 @@ const useStyles = makeStyles(() => ({
         fontSize: 60,
         letterSpacing: '3px',
         fontWeight: 'semi-bold'
-    }
+    },
+    textHashtag: {
+        position: 'absolute',
+        left: 1640,
+        top: 1880,
+        fontStyle: 'italic',
+        color: 'white',
+        fontSize: 20,
+    },
 }));
 
 
@@ -33,6 +41,9 @@ function GalleryPage() {
             <div className={classes.root}>
                 <PhotoGallery />
             </div>
+            <Typography className={classes.textHashtag}>
+                #lemnclasaA
+            </Typography>
             <Footer />
         </div>
 
