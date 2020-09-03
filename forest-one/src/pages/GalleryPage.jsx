@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Typography } from "@material-ui/core";
 import PhotoGallery from "../components/Gallery/PhotoGallery"
 import HeaderSecond from "../components/HeaderSecond";
+import Footer from "../components/Footer";
 
 const useStyles = makeStyles(() => ({
     root: {
@@ -32,6 +33,7 @@ function GalleryPage() {
             <div className={classes.root}>
                 <PhotoGallery />
             </div>
+            <Footer />
         </div>
 
     );
