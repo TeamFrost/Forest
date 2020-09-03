@@ -141,27 +141,27 @@ function Footer() {
                 </Grid>
             </Paper>
             <Paper elevation={0} className={classes.paper3}>
-                <img src={Facebook} className={classes.icons} onClick={(e) => {
+                <img src={Facebook} alt="facebook" className={classes.icons} onClick={(e) => {
                     e.preventDefault();
                     window.open("https://www.facebook.com/vreaulemn/");
                 }} />
-                 <img src={Youtube} className={classes.icons} onClick={(e) => {
+                 <img src={Youtube} alt="youtube" className={classes.icons} onClick={(e) => {
                     e.preventDefault();
                     window.open("https://www.youtube.com/channel/UCy3UnLiHkerLlaVsm_pwwrg");
                 }} />
-                <img src={Location} className={classes.icons} onClick={(e) => {
+                <img src={Location} alt="location" className={classes.icons} onClick={(e) => {
                     e.preventDefault();
                     window.open("https://www.google.com/maps/@45.7234705,21.2963809,3a,75y,144.71h,89.09t/data=!3m6!1e1!3m4!1sW_1J7EpjBjc1fIDaB1hz7Q!2e0!7i13312!8i6656?hl=en-US");
                 }} />
-                <img src={Whatsapp} className={classes.icons} onClick={(e) => {
+                <img src={Whatsapp} alt="whatsapp" className={classes.icons} onClick={(e) => {
                     e.preventDefault();
                     window.open("https://www.google.com");
                 }} />
-                 <img src={Blogger} className={classes.icons} onClick={(e) => {
+                 <img src={Blogger} alt="blog" className={classes.icons} onClick={(e) => {
                     e.preventDefault();
                     window.open("http://vreaulemn.blogspot.com/p/lemnul-de-constructii-1.html");
                 }} />
-                <img src={Houzz} className={classes.icons} onClick={(e) => {
+                <img src={Houzz} alt="houzz" className={classes.icons} onClick={(e) => {
                     e.preventDefault();
                     window.open("https://www.houzz.com/professionals/home-builders/forest-one-pfvwus-pf~1511217594?");
                 }} />

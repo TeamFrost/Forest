@@ -15,22 +15,41 @@ import message from "../img/message.jpg";
 const useStyles = makeStyles({
     root: {
         display: 'flex',
-        marginLeft: 75,
+        marginLeft: 150,
         marginTop: 50,
     },
     card: {
-        margin: 50,
+        margin: 25,
         width: 345,
         maxWidth: 345,
+        height: 500
+
     },
     media: {
-        height: 140,
+        height: 260,
+    },
+    content: {
+        paddingBottom: 0,
+        paddingLeft: 0,
+        paddingRight: 0,
+        width: 345,
+        height: 150,
     },
     button: {
         color: 'green',
         fontWeight: 'bold',
-        fontSize: 16,
-        marginLeft: '33%'
+        fontSize: 20,
+        position: 'relative', left: '50%', top: '50%',
+        transform: 'translate(-50%, 10%)'
+    },
+    text: {
+        marginBottom: 10,
+    },
+    info: {
+        fontWeight: 'semi-bold'
+    },
+    link: {
+        color: 'black'
     }
 });
 
@@ -39,6 +58,7 @@ export default function ContactCards() {
 
     return (
         <div className={classes.root}>
+            {/* Phone card */}
             <Card className={classes.card}>
                 <CardActionArea>
                     <CardMedia
@@ -47,102 +67,104 @@ export default function ContactCards() {
                         title="Phone"
                     />
                 </CardActionArea>
-                <CardContent>
+                <CardContent className={classes.content}>
                     <Typography gutterBottom variant="h5" component="h2">
                         TELEFON
-                        </Typography>
-                    <Typography variant="body1" color="textSecondary" component="p" style={{marginBottom: 10}}>
-                        Ne poți contacta la urmatoarele numere de telefon:
-                        </Typography>
-                    <Typography variant="body1" color="textSecondary" component="p">
+                    </Typography>
+                    <Typography variant="body1" color="textSecondary" component="p" className={classes.text}>
+                        Ne puteți contacta la urmatoarele numere de telefon:
+                    </Typography>
+                    <Typography variant="body1" color="textPrimary" component="p" className={classes.info}>
                         0722 469 518
                         </Typography>
-                    <Typography variant="body1" color="textSecondary" component="p">
+                    <Typography variant="body1" color="textPrimary" component="p" className={classes.info}>
                         0766 066 808
                         </Typography>
                 </CardContent>
-
                 <CardActions>
-                    <Button className={classes.button}>
-                        Suna acum
+                    <Button className={classes.button} >
+                        Sună acum
                     </Button>
                 </CardActions>
             </Card>
+
+            {/* Mail card */}
             <Card className={classes.card}>
                 <CardActionArea>
                     <CardMedia
                         className={classes.media}
                         image={mail}
-                        title="Contemplative Reptile"
+                        title="Mail"
                     />
-                    <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2">
-                            Lizard
-                        </Typography>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                            across all continents except Antarctica
-                         </Typography>
-                    </CardContent>
                 </CardActionArea>
+                <CardContent className={classes.content}>
+                    <Typography gutterBottom variant="h5" component="h2">
+                        MAIL
+                    </Typography>
+                    <Typography variant="body1" color="textSecondary" component="p" className={classes.text}>
+                        Puteți scrie un email la adresa:
+                    </Typography>
+                    <Typography variant="body1" color="textPrimary" component="p" className={classes.info}>
+                        office@forestone.ro
+                    </Typography>
+                </CardContent>
                 <CardActions>
-                    <Button size="small" color="primary">
-                        Share
-                    </Button>
-                    <Button size="small" color="primary">
-                        Learn More
+                    <Button className={classes.button} >
+                        Trimite mail
                     </Button>
                 </CardActions>
             </Card>
+
+            {/* Whatsapp card */}
             <Card className={classes.card}>
                 <CardActionArea>
                     <CardMedia
                         className={classes.media}
                         image={whatsapp}
-                        title="Contemplative Reptile"
+                        title="Whatsapp"
                     />
-                    <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2">
-                            Lizard
-                        </Typography>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                            across all continents except Antarctica
-                         </Typography>
-                    </CardContent>
                 </CardActionArea>
+                <CardContent className={classes.content}>
+                    <Typography gutterBottom variant="h5" component="h2">
+                        WHATSAPP
+                    </Typography>
+                    <Typography variant="body1" color="textSecondary" component="p" className={classes.text}>
+                        Cereți o ofertă personalizată pe WhatsApp la numărul:
+                    </Typography>
+                    <Typography variant="body1" color="textPrimary" component="p" className={classes.info}>
+                        0722 469 518
+                    </Typography>
+                </CardContent>
                 <CardActions>
-                    <Button size="small" color="primary">
-                        Share
-                    </Button>
-                    <Button size="small" color="primary">
-                        Learn More
+                    <Button className={classes.button}>
+                        Cere ofertă
                     </Button>
                 </CardActions>
             </Card>
+
+            {/* Messenger card */}
             <Card className={classes.card}>
                 <CardActionArea>
                     <CardMedia
                         className={classes.media}
                         image={message}
-                        title="Contemplative Reptile"
+                        title="Message"
                     />
-                    <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2">
-                            Lizard
-                        </Typography>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                            across all continents except Antarctica
-                         </Typography>
-                    </CardContent>
                 </CardActionArea>
+                <CardContent className={classes.content}>
+                    <Typography gutterBottom variant="h5" component="h2">
+                        MESAJ
+                    </Typography>
+                    <Typography variant="body1" color="textSecondary" component="p" className={classes.text}>
+                        Ne puteți contacta pe Facebook, pe pagina noastră:
+                    </Typography>
+                    <Typography variant="body1" color="textPrimary" component="p" className={classes.info}>
+                    <a href="https://www.facebook.com/vreaulemn" target="_blank" rel="noopener noreferrer" className={classes.link}>ForestOne</a>
+                    </Typography>
+                </CardContent>
                 <CardActions>
-                    <Button size="small" color="primary">
-                        Share
-                    </Button>
-                    <Button size="small" color="primary">
-                        Learn More
+                    <Button className={classes.button}>
+                        Scrie un mesaj
                     </Button>
                 </CardActions>
             </Card>
