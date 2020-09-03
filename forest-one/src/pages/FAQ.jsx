@@ -11,8 +11,6 @@ import faq from "../img/faq.jpg";
 import HeaderSecond from "../components/HeaderSecond";
 import Footer from "../components/Footer";
 
-
-
 const useStyles = makeStyles(() => ({
     paper: {
         width: 1920,
@@ -43,7 +41,14 @@ const useStyles = makeStyles(() => ({
         color: '#2A530B',
         cursor: 'default',
     },
-
+    text: {
+        position: 'absolute',
+        left: 1640,
+        top: 1585,
+        fontStyle: 'italic',
+        color: 'white',
+        fontSize: 20,
+    },
 
 }));
 
@@ -140,6 +145,9 @@ function FAQ() {
                     </ListItemText>
                 </ListItem >
             </List>
+            <Typography className={classes.text}>
+                #lemnfinisat
+            </Typography>
             <Footer />
         </div>
     );

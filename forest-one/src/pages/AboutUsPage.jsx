@@ -68,8 +68,15 @@ const useStyles = makeStyles(() => ({
     },
     text: {
         fontSize: 18
-    }
-
+    },
+    textHashtag: {
+        position: 'absolute',
+        left: 1640,
+        top: 2760,
+        fontStyle: 'italic',
+        color: 'white',
+        fontSize: 20,
+    },
 }));
 
 function AboutUsPage() {
@@ -158,6 +165,9 @@ function AboutUsPage() {
                     </ListItem>
                 </List>
             </div>
+            <Typography className={classes.textHashtag}>
+                #lemndeconstruit
+            </Typography>
             <Footer />
         </div>
     );

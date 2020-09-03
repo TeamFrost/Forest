@@ -9,8 +9,23 @@ import ListShop from '../components/List+Shop/ListShop';
 import Advantages from "../components/Advantages";
 import Houzz from '../components/Houzz';
 import Footer from '../components/Footer';
+import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+    text: {
+        position: 'absolute',
+        left: 1640,
+        top: 5925,
+        fontStyle: 'italic',
+        color: 'white',
+        fontSize: 20,
+    },
+});
 
 function HomePage() {
+    const classes = useStyles();
+
     return (
         <div>
             <div style={{ position: 'absolute', top: 70, left: 940 }}>
@@ -25,6 +40,9 @@ function HomePage() {
             <ListShop />
             <Advantages />
             <Houzz />
+            <Typography className={classes.text}>
+                #cherestea
+            </Typography>
             <Footer />
 
         </div>
