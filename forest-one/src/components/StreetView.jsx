@@ -76,7 +76,7 @@ function StreetView() {
                     Sâmbătă: 08:00 - 12:00
                 </Typography>
             </Paper>
-            <iframe src="https://www.google.com/maps/embed?pb=!4v1599137183145!6m8!1m7!1slVZ9jeKuIQ7K3k1LZGA_bw!2m2!1d45.72350087330756!2d21.29639021330168!3f151.10490715589415!4f2.3049865360706576!5f1.0193423409576279" className={classes.frame}></iframe>
+            <iframe title="foreststreetview" src="https://www.google.com/maps/embed?pb=!4v1599137183145!6m8!1m7!1slVZ9jeKuIQ7K3k1LZGA_bw!2m2!1d45.72350087330756!2d21.29639021330168!3f151.10490715589415!4f2.3049865360706576!5f1.0193423409576279" className={classes.frame}></iframe>
         </div>
     );
 }

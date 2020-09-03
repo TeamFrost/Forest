@@ -69,25 +69,25 @@ function Houzz() {
                 <div id="hzroot9671588" className={classes.houzz}>
                     <div style={{ fontSize: '14px', marginBottom: '3px' }}></div>
                     <div style={{ padding: 0, margin: 0, border: 0, marginBottom: '3px' }}>
-                        <iframe title="frame1" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" border="0" frameborder="0" SCROLLING="NO" style={{ border: 0, width: '300px', height: '275px' }} src="https://www.houzz.com/jsGalleryWidget/query/wood/new_window=yes/title_on=yes/width=300"></iframe>
+                        <iframe title="frame1" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" style={{ border: 0, width: '300px', height: '275px', frameBorder: "0", scrolling: "NO" }} src="https://www.houzz.com/jsGalleryWidget/query/wood/new_window=yes/title_on=yes/width=300"></iframe>
                     </div>
                 </div >
                 <div id="hzroot9671588" className={classes.houzz}>
                     <div style={{ fontSize: '14px', marginBottom: '3px' }}></div>
                     <div style={{ padding: 0, margin: 0, border: 0, marginBottom: '3px' }}>
-                        <iframe title="frame2" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" border="0" frameborder="0" SCROLLING="NO" style={{ border: 0, width: '300px', height: '275px' }} src="https://www.houzz.com/jsGalleryWidget/query/wood%20%20floor/new_window=yes/title_on=yes/width=300"></iframe>
+                        <iframe title="frame2" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" style={{ border: 0, width: '300px', height: '275px', frameBorder: "0", scrolling: "NO" }} src="https://www.houzz.com/jsGalleryWidget/query/wood%20%20floor/new_window=yes/title_on=yes/width=300"></iframe>
                     </div>
                 </div >
                 <div id="hzroot9671588" className={classes.houzz}>
                     <div style={{ fontSize: '14px', marginBottom: '3px' }}></div>
                     <div style={{ padding: 0, margin: 0, border: 0, marginBottom: '3px' }}>
-                        <iframe title="frame3" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" border="0" frameborder="0" SCROLLING="NO" style={{ border: 0, width: '300px', height: '275px' }} src="https://www.houzz.com/jsGalleryWidget/query/wood%20%20paneling/new_window=yes/title_on=yes/width=300"></iframe>
+                        <iframe title="frame3" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" style={{ border: 0, width: '300px', height: '275px', frameBorder: "0", scrolling: "NO" }} src="https://www.houzz.com/jsGalleryWidget/query/wood%20%20paneling/new_window=yes/title_on=yes/width=300"></iframe>
                     </div>
                 </div >
                 <div id="hzroot9671588" className={classes.houzz}>
                     <div style={{ fontSize: '14px', marginBottom: '3px' }}></div>
                     <div style={{ padding: 0, margin: 0, border: 0, marginBottom: '3px' }}>
-                        <iframe title="frame4" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" border="0" frameborder="0" SCROLLING="NO" style={{ border: 0, width: '300px', height: '275px' }} src="https://www.houzz.com/jsGalleryWidget/query/wood%20%20stairs/new_window=yes/title_on=yes/width=300"></iframe>
+                        <iframe title="frame4" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" style={{ border: 0, width: '300px', height: '275px', frameBorder: "0", scrolling: "NO" }} src="https://www.houzz.com/jsGalleryWidget/query/wood%20%20stairs/new_window=yes/title_on=yes/width=300"></iframe>
                     </div>
                 </div >
             </div>
@@ -95,25 +95,25 @@ function Houzz() {
                 <div id="hzroot9671588" className={classes.houzz}>
                     <div style={{ fontSize: '14px', marginBottom: '3px' }}></div>
                     <div style={{ padding: 0, margin: 0, border: 0, marginBottom: '3px' }}>
-                        <iframe title="frame1" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" border="0" frameborder="0" SCROLLING="NO" style={{ border: 0, width: '300px', height: '275px' }} src="https://www.houzz.com/jsGalleryWidget/query/wood%20%20beam/new_window=yes/title_on=yes/width=300"></iframe>
+                        <iframe title="frame1" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" style={{ border: 0, width: '300px', height: '275px', frameBorder: "0", scrolling: "NO" }} src="https://www.houzz.com/jsGalleryWidget/query/wood%20%20beam/new_window=yes/title_on=yes/width=300"></iframe>
                     </div>
                 </div >
                 <div id="hzroot9671588" className={classes.houzz}>
                     <div style={{ fontSize: '14px', marginBottom: '3px' }}></div>
                     <div style={{ padding: 0, margin: 0, border: 0, marginBottom: '3px' }}>
-                        <iframe title="frame2" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" border="0" frameborder="0" SCROLLING="NO" style={{ border: 0, width: '300px', height: '275px' }} src="https://www.houzz.com/jsGalleryWidget/query/wood%20%20fence/new_window=yes/title_on=yes/width=300"></iframe>
+                        <iframe title="frame2" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" style={{ border: 0, width: '300px', height: '275px', frameBorder: "0", scrolling: "NO" }} src="https://www.houzz.com/jsGalleryWidget/query/wood%20%20fence/new_window=yes/title_on=yes/width=300"></iframe>
                     </div>
                 </div >
                 <div id="hzroot9671588" className={classes.houzz}>
                     <div style={{ fontSize: '14px', marginBottom: '3px' }}></div>
                     <div style={{ padding: 0, margin: 0, border: 0, marginBottom: '3px' }}>
-                        <iframe title="frame3" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" border="0" frameborder="0" SCROLLING="NO" style={{ border: 0, width: '300px', height: '275px' }} src="https://www.houzz.com/jsGalleryWidget/query/exterior%20%20wood/new_window=yes/title_on=yes/width=300"></iframe>
+                        <iframe title="frame3" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" style={{ border: 0, width: '300px', height: '275px', frameBorder: "0", scrolling: "NO" }} src="https://www.houzz.com/jsGalleryWidget/query/exterior%20%20wood/new_window=yes/title_on=yes/width=300"></iframe>
                     </div>
                 </div >
                 <div id="hzroot9671588" className={classes.houzz}>
                     <div style={{ fontSize: '14px', marginBottom: '3px' }}></div>
                     <div style={{ padding: 0, margin: 0, border: 0, marginBottom: '3px' }}>
-                        <iframe title="frame4" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" border="0" frameborder="0" SCROLLING="NO" style={{ border: 0, width: '300px', height: '275px' }} src="https://www.houzz.com/jsGalleryWidget/query/wood%20%20attic/new_window=yes/title_on=yes/width=300"></iframe>
+                        <iframe title="frame4" data-hzvt="MjAyMDA4MzE6NDI5MzpidXR0b25zQW5kQmFkZ2Vz" name="HouzzWidget3971775" id="HouzzWidget3971775" style={{ border: 0, width: '300px', height: '275px', frameBorder: "0", scrolling: "NO" }} src="https://www.houzz.com/jsGalleryWidget/query/wood%20%20attic/new_window=yes/title_on=yes/width=300"></iframe>
                     </div>
                 </div >
             </div>

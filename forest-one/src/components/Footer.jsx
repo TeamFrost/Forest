@@ -1,8 +1,7 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 import footer from "../img/footer.png";
-import { Paper, Typography } from '@material-ui/core';
+import { Paper } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
 import PhoneOutlinedIcon from '@material-ui/icons/PhoneOutlined';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
