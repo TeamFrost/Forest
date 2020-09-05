@@ -10,6 +10,13 @@ using WebAPI.Models;
 
 namespace WebAPI.Controllers
 {
+    public class ShopCard
+    {
+        public string Name { get; set; }
+        public double Price { get; set; }
+        public string TypeForPrice { get; set; }
+    }
+
     [Route("api/[controller]")]
     [ApiController]
     public class ProductController : ControllerBase
@@ -23,9 +30,26 @@ namespace WebAPI.Controllers
 
         // GET: api/Product
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
+        public async Task<ActionResult<IEnumerable<ShopCard>>> GetProducts()
         {
-            return await _context.Products.ToListAsync();
+            return await _context.Products
+                .Where(s => s.Stock > 0)
+                .Select(s => new ShopCard()
+                {
+                    Name = s.Name,
+                    Price = s.Price,
+                    TypeForPrice = s.TypeForPrice
+                })
+                .ToListAsync();
+        }
+
+        [HttpGet("{size}")]
+        public async Task<ActionResult<IEnumerable<string>>> GetHeight([FromBody] string Size)
+        {
+            return await _context.Products
+                .Where(s => s.Size == Size)
+                .Select(s => s.Length)
+                .ToListAsync();
         }
 
         // GET: api/Product/5
