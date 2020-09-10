@@ -339,8 +339,6 @@ C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\l
 C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csprojAssemblyReference.cache
 C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfoInputs.cache
 C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
-C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
-C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.RazorTargetAssemblyInfo.cache
 C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
 C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
@@ -348,3 +346,7 @@ C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\staticwebasset
 C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Shop.dll
+C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Shop.pdb
+C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\Edi\Desktop\Forest\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache

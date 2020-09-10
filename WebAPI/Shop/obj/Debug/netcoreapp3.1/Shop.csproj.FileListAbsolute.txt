@@ -1,0 +1,9 @@
+C:\Users\Edi\Desktop\Forest\WebAPI\Shop\bin\Debug\netcoreapp3.1\Shop.deps.json
+C:\Users\Edi\Desktop\Forest\WebAPI\Shop\bin\Debug\netcoreapp3.1\Shop.dll
+C:\Users\Edi\Desktop\Forest\WebAPI\Shop\bin\Debug\netcoreapp3.1\Shop.pdb
+C:\Users\Edi\Desktop\Forest\WebAPI\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache
+C:\Users\Edi\Desktop\Forest\WebAPI\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfoInputs.cache
+C:\Users\Edi\Desktop\Forest\WebAPI\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfo.cs
+C:\Users\Edi\Desktop\Forest\WebAPI\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CoreCompileInputs.cache
+C:\Users\Edi\Desktop\Forest\WebAPI\Shop\obj\Debug\netcoreapp3.1\Shop.dll
+C:\Users\Edi\Desktop\Forest\WebAPI\Shop\obj\Debug\netcoreapp3.1\Shop.pdb

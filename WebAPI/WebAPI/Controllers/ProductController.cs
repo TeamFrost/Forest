@@ -5,18 +5,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Shop;
 using WebAPI.Entities;
 using WebAPI.Models;
 
 namespace WebAPI.Controllers
 {
-    public class ShopCard
-    {
-        public string Name { get; set; }
-        public double Price { get; set; }
-        public string TypeForPrice { get; set; }
-    }
-
     [Route("api/[controller]")]
     [ApiController]
     public class ProductController : ControllerBase
@@ -30,7 +24,7 @@ namespace WebAPI.Controllers
 
         // GET: api/Product
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ShopCard>>> GetProducts()
+        public async Task<ActionResult<IEnumerable<ShopCard>>> GetAvailableCardProducts()
         {
             return await _context.Products
                 .Where(s => s.Stock > 0)
@@ -40,6 +34,7 @@ namespace WebAPI.Controllers
                     Price = s.Price,
                     TypeForPrice = s.TypeForPrice
                 })
+                .OrderBy(s => s.Name)
                 .ToListAsync();
         }
 

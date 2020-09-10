@@ -7,16 +7,19 @@ import FAQ from './pages/FAQ';
 import GalleryPage from './pages/GalleryPage';
 import ContactPage from './pages/ContactPage';
 import Gdpr from './pages/Gdpr';
+import TestCards from './components/TestCards';
 
 function App() {
     return (
         <div className="App" >
             {/* <LandingPage /> */}
-            <HomePage />
+            {/* <HomePage /> */}
             {/* <AboutUsPage /> */}
-            {/* <FAQ /> */}
+            <FAQ />
             {/* <GalleryPage /> */}
             {/* <ContactPage /> */}
+            {/* <Gdpr /> */}
+            {/* <TestCards /> */}
         </div>
     );
 }
